@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   basePath: "/PortfolioWebsite",
-  assetPrefix: "/PortfolioWebsite",
+  assetPrefix: "https://kaichua3.github.io/PortfolioWebsite/",
   
 };
 

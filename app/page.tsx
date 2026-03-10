@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
     <div className="h-screen w-screen overflow-hidden bg-white text-black">
-      <style type="text/tailwindcss">{`
+      <style>{`
         @keyframes fadeIn {
           from {
             opacity: 0;
