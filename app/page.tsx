@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
     <div className="h-screen w-screen overflow-hidden bg-white text-black">
-      <style>{`
+      <style type="text/tailwindcss">{`
         @keyframes fadeIn {
           from {
             opacity: 0;
@@ -114,6 +114,7 @@ export default function Home() {
       <header className={`fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-200 transition-transform duration-300 ${
         showHeader ? 'translate-y-0' : '-translate-y-full'
       }`}>
+        
         <div className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
           <div className="text-2xl font-bold"></div>
           <nav className="flex gap-8">

@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   basePath: "/PortfolioWebsite",
-  assetPrefix: "/PortfolioWebsite/",
+  assetPrefix: "/PortfolioWebsite",
+  
 };
 
-module.exports = nextConfig;
 export default nextConfig;
